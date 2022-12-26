@@ -3,11 +3,9 @@ import { ThemeContextProvider } from "./contexts/ThemeContext";
 
 function App() {
   return (
-    <div>
-      <ThemeContextProvider>
-        <ChangeTheme />
-      </ThemeContextProvider>
-    </div>
+    <ThemeContextProvider>
+      <ChangeTheme />
+    </ThemeContextProvider>
   );
 }
 
