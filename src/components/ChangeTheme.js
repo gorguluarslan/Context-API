@@ -6,7 +6,7 @@ function ChangeTheme() {
   console.log(data);
   return (
     <div>
-      <div>Active Theme: {data} </div>
+      <div>Active Theme: </div>
       <button>ChangeTheme</button>
     </div>
   );
